@@ -21,7 +21,7 @@ Run these two commands when you first download the repo.
 
 
 
-### Thank you Ryan for helping me put this example.
-
 ### License
 See the [MATTERPORT SAMPLE SDK CODE LICENSE AGREEMENT](LICENSE) file for license rights and limitations for this repository.
+#### A big thanks to Ryan for helping with this examples.
+
