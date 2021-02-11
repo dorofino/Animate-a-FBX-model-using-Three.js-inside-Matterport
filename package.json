@@ -1,0 +1,27 @@
+{
+  "name": "nokia",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Diego Orofino",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -c webpack.config.js",
+    "start": "webpack-dev-server",
+    "install": "npm install package.json && yarn install-bundle",
+    "install-bundle": "curl https://static.matterport.com/showcase-sdk/bundle/3.1.28.5-4-g911543b43/showcase-bundle.zip -o ./bundle.zip && unzip ./bundle.zip -d ./bundle"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "three": "^0.125.2",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.0"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
