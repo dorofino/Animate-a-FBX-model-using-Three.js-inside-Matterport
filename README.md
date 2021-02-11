@@ -9,11 +9,16 @@ See <https://nodejs.org/en/> and <https://classic.yarnpkg.com/en/docs/install> f
 
 ### Setup root
 Run these two commands when you first download the repo.
+```shell
 > yarn install 
  ...
 ```
 
+```shell
 > yarn start
+ ...
+```
+
 
 
 
