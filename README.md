@@ -1,4 +1,4 @@
-# Animate A Model using Three.js inside Matterport
+# Animate A FBX Model using Three.js inside Matterport
 
 ### Prerequisites
 Your development environment will need node.js and yarn installed.
